@@ -5,6 +5,9 @@
                     },
                     {
                         "path":  "NewPTEApp"
+                    },
+                    {
+                        "path":  "DummyTest.Test"
                     }
                 ],
     "settings":  {

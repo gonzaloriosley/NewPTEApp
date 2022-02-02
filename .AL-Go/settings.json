@@ -4,6 +4,6 @@
                        "NewPTEApp"
                    ],
     "testFolders":  [
-
+                        "DummyTest.Test"
                     ]
 }
