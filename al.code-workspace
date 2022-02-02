@@ -1,4 +1,4 @@
-﻿{
+{
     "folders":  [
                     {
                         "path":  ".AL-Go"
@@ -11,6 +11,17 @@
                     }
                 ],
     "settings":  {
-
-                 }
+        "al.enableCodeAnalysis": true,
+        "al.codeAnalyzers": ["${AppSourceCop}", "${CodeCop}", "${UICop}"],"[al]": {
+            "editor.wordBasedSuggestions": false,
+            "editor.suggestSelection": "first",
+            "editor.formatOnSave": true
+        },
+        "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.OnSaveAlFileAction": "Rename",
+        "CRS.RenameWithGit": false,
+        "CRS.ObjectNamePrefix": "GRL"
+    }
 }
